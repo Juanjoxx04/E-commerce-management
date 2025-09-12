@@ -10,6 +10,17 @@
 	<query id="getAllProducts" comment="Obetener Todos los productos">
 <![CDATA[ SELECT * FROM products ]]>
 </query>
+
+<!-- CONSULTAS PARA ORDERS -->
+<query id="getOrdersById" comment="Obetener productos por ID">
+<![CDATA[ SELECT * FROM products WHERE id = ? ]]>
+</query>
+
+	<query id="getAllOrders" comment="Obetener Todos los productos">
+<![CDATA[ SELECT * FROM products ]]>
+</query>
+
+	
 </queries>
 
 

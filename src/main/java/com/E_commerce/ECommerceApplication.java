@@ -1,13 +1,13 @@
-package com.E_commerce.orders;
+package com.E_commerce;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OrdersApplication {
+public class ECommerceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OrdersApplication.class, args);
+		SpringApplication.run(ECommerceApplication.class, args);
 	}
 
 }

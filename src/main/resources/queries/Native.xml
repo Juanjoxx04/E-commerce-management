@@ -1,1 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- CONSULTAS DE PRODUCTOS -->
+
+<queries>
+	<query id="getProductsById" comment="Obetener productos por ID">
+<![CDATA[ SELECT * FROM products WHERE id = ? ]]>
+</query>
+
+	<query id="getAllProducts" comment="Obetener Todos los productos">
+<![CDATA[ SELECT * FROM products ]]>
+</query>
+</queries>
+
+

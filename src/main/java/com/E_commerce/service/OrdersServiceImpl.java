@@ -1,5 +1,5 @@
 package com.E_commerce.service;
 
-public class OrdersDAOImpl {
+public class OrdersServiceImpl {
 
 }
